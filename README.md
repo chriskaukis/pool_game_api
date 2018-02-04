@@ -29,8 +29,6 @@ pool.
 * Each game should have a unique id, and two teams. These teams can be simple strings,
 with the pattern of “Team #1”, “Team #2”, etc., but each team should have one game per round against every other team in the pool.
 
-* Apple autocomplete messed up the repo name before I noticed.
-
 ## Bonus Requirements
 1. Set up a basic form UI that will take in the parameters and display a rendered form of the generated games.
 2. Add a parameter that will populate the pools using a sequential seeding method.
