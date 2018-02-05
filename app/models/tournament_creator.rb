@@ -40,6 +40,8 @@ class TournamentCreator
 
   # create_snake_sequence_tournament creates and returns a new tournament given the number of pools, number of teams, and number of rounds.
   def create_tournament(tournament_name = 'Tournament')
+    return nil unless valid?
+
     pools = TournamentCreator.create_pools(number_of_pools)
     teams = TournamentCreator.create_teams(number_of_teams)
     if pool_placement == 'sequential'
